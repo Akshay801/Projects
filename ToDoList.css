@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ body{
+    background-color: aqua;
+    text-align: center;
+ }
+
+.container{
+    padding: 15px;
+    margin: 50px auto;
+    height: 300px;
+    max-width: 500px;
+    background-color:yellow;
+    border-radius: 10%;
+}
+h2{
+    text-transform: uppercase;
+}
+.input-group{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+#inputText{
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#add-button{
+    padding: 7px 9px;
+    background-color: #fff;
+}
+/* .todos-container{
+    overflow-y: scroll;
+} */
+.todo-item-container{
+    display: flex;
+    padding: 5px auto;
+    margin-bottom: 5px;
+    text-align: left;
+}
+#todo-text{
+    width: 100%;
+    font-size: 20px;
+}
+#edit-btn,#delete-btn,#img{
+    padding-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+img{
+    height: 20px;
+    width: 20px;
+}
